@@ -124,6 +124,81 @@ Action #1: Data Analysis Approach Taken:
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b6d58830-8a16-453e-9b6b-3e0db64cf7e1)
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/861c6ff4-48fb-41c0-9d8f-ce0c3ec1740b)
 
+Insights #3 on Coupon Expiration and Timing:  
+
+•	Coupon Expiration Preference: Analysis reveals drivers display a stronger preference for coupons with a one-day expiration than those requiring immediate action within two hours consistently across different coupon types.    
+This suggests the need to reevaluate the strategy behind short-term promotions, acknowledging that drivers value the flexibility to plan their redemption, despite the convenience of instant access via their phones.
+
+•	Coupon Timing Relevance: The analysis indicates that drivers' acceptance of coupons varies significantly across different coupon types and times, aligning with their lifestyle, commuting patterns, or daily routines.   
+This observation underscores the importance of further investigating the timing aspect to refine our approach to coupon promotions, ensuring they resonate more effectively with the intended recipients' schedules.
+
+Analytics Action taken:  
+Consider coupon time as the only coupon attribute for further analysis.
+
+### 3.5 Temperature Histograms and Coupon Acceptance Rates
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/5b8a59ac-33f5-4eb3-bf46-7dd64bd1b018)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/ab57b090-16b4-4fb3-bb1c-b75b144bc34d)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/100d3e65-5373-4bf3-9de8-6103dc475b13)
+
+### 3.6 Summarized Coupon Attributes and Temperature related variables Analysis
+
+Insights:
+1)	Coupon Offer Distribution: Coffee House coupons were the most frequently offered, followed by budget restaurants, carryout options, bars, and upscale restaurants.   
+2)	Coupon Acceptance Rates: Carryout coupons emerged as the most accepted coupon type, with budget restaurants also showing high acceptance. In contrast, coffee houses (the most frequently offered), upscale restaurants, and bars had notably lower acceptance rates, averaging in the 0.4 range. This indicates a clear preference among drivers for conducting coupons over others.  
+3)	Expiration and Timing Preferences: Drivers prefer coupons with a one-day expiration, valuing the flexibility to plan over the immediacy of two-hour offers. Additionally, it suggests a need to align coupon offers with drivers' lifestyles and schedules for more effective promotion strategies for all coupon types.  
+4)	Environmental Influences: The analysis, primarily conducted on sunny days across three temperature ranges, reveals a positive correlation between coupon acceptance and comfortable, sunny weather conditions. This finding suggests that favorable environmental conditions play a role in increasing coupon engagement, pointing towards the importance of considering weather factors in coupon distribution plans.
+
+Analytics Actions:
+
+1)	Focused on 'Bar' and 'Carryout' coupons, identifying them respectively as the least and most popular among drivers for in-depth analysis.  
+2)	Expiration Attribute/Temperature Exclusion: Opted to remove expiration time from in-depth analysis due to its uniform application across coupon types across coupon types.  
+3)	Coupon Timing: Identified coupon timing as a critical variable for further analysis, especially for 'CarryOut' coupons, to align promotional efforts with drivers' preferences and routines.  
+4)	Weather Variable Exclusion: This decision acknowledges the dataset's sunny condition bias, aiming for a more representative understanding of factors driving coupon acceptance without the skewed influence of incomplete weather data.
+
+## 4 Bar Coupon Acceptance
+This analysis, delineated by factors such as bar visit frequency, age, income, occupation, marital status, and passenger presence, offers detailed insights into bar coupon redemption patterns.
+
+### 4.1	Bar Coupon Data Segmentation
+
+•	Establish a focused subset for bar coupons for targeted analysis.
+
+### 4.2	Data Integrity and Structure Review
+
+•	Follow previously outlined steps to review the dataset structure and quality. I did notice duplicates and removed them from the subset.
+
+### 4.3 Calculate Bar Coupon Acceptance Rate: 0.4118572927597062 as the benchmark.
+
+### 4.4 Compare the Acceptance Rate between Those Who Went to a Bar Three or Fewer Times a Month to Those Who Went More.
+
+•	Rate Analysis and Visualization: Utilized grouping and mean methods to calculate acceptance rates for drivers based on their frequency of bar visits. Drivers meeting the specified criteria were labeled/flagged 'in' within the dataset.  
+•	The resulting statistics are listed below, followed by a bar chart for visual representation.  
+
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/435a82c8-a083-4ca5-a200-b7ccfc4c6b6b)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/dd7b5e72-1e72-414c-8a98-5b78d7baa882)
+
+### 4.5 Compare the acceptance rate between drivers who go to a bar more than once a month and are over the age of twenty-five to all others. Is there a difference?
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/66ada06e-f695-40af-8217-bea89b2bd1a9)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/29595231-1594-460e-8590-dec6aa5903de)
+
+### 4.6 Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not kids and had occupations other than farming, fishing, or forestry.
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/66e92803-baee-4da4-9948-8ab54c6accdd)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b32eebaf-a43c-4491-9f2d-e9fcfa1b385f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
