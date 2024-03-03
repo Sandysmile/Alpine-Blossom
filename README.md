@@ -80,6 +80,58 @@ This Panda’s profiling package generates a comprehensive data quality report t
 #### 2.3.4 Report Profile Examples
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b92282f7-f8c9-4dfa-9d24-cd043cf8d102)
 
+### 2.4 Summary of Data Cleaning and Preparation Actions Taken:
+
+1.	Column Exclusion: The 'car' column was eliminated due to its minimal non-missing data, with only 108 entries out of 12,684 records, rendering it non-representative for analysis.  
+2.	Missing Value Treatment: Cleared missing entries from critical columns, including 'CoffeeHouse', 'CarryAway', 'RestaurantLessThan20', and 'Restaurant20to50', to ensure the integrity of the dataset.  
+3.	Duplicate Records: Identified and deleted duplicate entries to maintain dataset uniqueness and reliability.  
+4.	Column Creation: Introduced a new 'Object' type column named 'coupon accepted'. This facilitates clearer visualization and aids in subsequent plotting and analysis tasks by distinctly marking coupon acceptance statuses.
+
+## 3 Coupon Data Visualization and Probability Analysis
+### 3.1 Visualization of Coupon Offers
+
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/8ab6579d-3aeb-4b9b-a6d0-7d36e90a8f7e)
+
+Insights #1:   
+Coffee House coupons were offered most to the drivers, followed by budgeted restaurants, carryout options, bars, and lastly, upscale restaurants.   
+Question:
+Did the coupon promotion marketing assume coffee house coupons are the most acceptable coupon type among the others? The questions led me to explore the coupon acceptance rates for different coupon types for more insights.   
+
+
+### 3.2 Bar Chart of Coupon Acceptance Rates by Type
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/eda43d66-2000-4852-b649-0c53b8ea0e24)
+
+### 3.3 What are the Coupon Acceptance Rates for the Coupon Dataset and distinct types of coupons separately in statistics and visual?
+
+The Average Coupon Acceptance Rate for All Coupons: 0.5675654242664552.  
+Coupon Acceptance Rates by coupon type:
+
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b291c6af-afdd-4330-847d-e6fe24db6db7)
+
+Insights #2
+Carry-out coupons are the most acceptable coupons, followed by budget restaurants. On average, coffee houses, upscale restaurants, and bar coupons have significantly lower acceptance rates, in the 0.4 range. Compared to conduct and budget restaurant.
+
+Question: should we promote more conduct coupons instead?
+
+Let us look at a bar chart of coupon rates comparing to the overall average.
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/3d4d611b-cf3a-4782-be68-921421abb2b5)
+Action #1: Data Analysis Approach Taken:
+1.	Coupon Subset Focus: Concentrated on analyzing 'Bar' (identified as the least popular) and 'Carry-Out' (the most favored) coupon types for detailed scrutiny.  
+2.	Coupon Attributes Analysis: Examined how unique features of coupons impact their acceptance among customers.  
+3.	Environmental Impact Assessment: Evaluated how universal factors like weather and temperature influence the likelihood of coupon acceptance
+
+### 3.4 Coupon Attributes (Expiration and Time) and Coupon Acceptance Rate
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b6d58830-8a16-453e-9b6b-3e0db64cf7e1)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/861c6ff4-48fb-41c0-9d8f-ce0c3ec1740b)
+
+
+
+
+
+
+
+
+
 
 
 
