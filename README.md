@@ -93,7 +93,8 @@ This Panda’s profiling package generates a comprehensive data quality report t
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/8ab6579d-3aeb-4b9b-a6d0-7d36e90a8f7e)
 
 Insights #1:   
-Coffee House coupons were offered most to the drivers, followed by budgeted restaurants, carryout options, bars, and lastly, upscale restaurants.   
+Coffee House coupons were offered most to the drivers, followed by budgeted restaurants, carryout options, bars, and lastly, upscale restaurants.
+
 Question:
 Did the coupon promotion marketing assume coffee house coupons are the most acceptable coupon type among the others? The questions led me to explore the coupon acceptance rates for different coupon types for more insights.   
 
@@ -115,6 +116,7 @@ Question: should we promote more conduct coupons instead?
 
 Let us look at a bar chart of coupon rates comparing to the overall average.
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/3d4d611b-cf3a-4782-be68-921421abb2b5)
+
 Action #1: Data Analysis Approach Taken:
 1.	Coupon Subset Focus: Concentrated on analyzing 'Bar' (identified as the least popular) and 'Carry-Out' (the most favored) coupon types for detailed scrutiny.  
 2.	Coupon Attributes Analysis: Examined how unique features of coupons impact their acceptance among customers.  
@@ -126,13 +128,15 @@ Action #1: Data Analysis Approach Taken:
 
 Insights #3 on Coupon Expiration and Timing:  
 
-•	Coupon Expiration Preference: Analysis reveals drivers display a stronger preference for coupons with a one-day expiration than those requiring immediate action within two hours consistently across different coupon types.    
+•	Coupon Expiration Preference: Analysis reveals drivers display a stronger preference for coupons with a one-day expiration than those requiring immediate action within two hours consistently across different coupon types.
+
 This suggests the need to reevaluate the strategy behind short-term promotions, acknowledging that drivers value the flexibility to plan their redemption, despite the convenience of instant access via their phones.
 
 •	Coupon Timing Relevance: The analysis indicates that drivers' acceptance of coupons varies significantly across different coupon types and times, aligning with their lifestyle, commuting patterns, or daily routines.   
 This observation underscores the importance of further investigating the timing aspect to refine our approach to coupon promotions, ensuring they resonate more effectively with the intended recipients' schedules.
 
-Analytics Action taken:  
+Analytics Action taken:
+
 Consider coupon time as the only coupon attribute for further analysis.
 
 ### 3.5 Temperature Histograms and Coupon Acceptance Rates
@@ -143,16 +147,22 @@ Consider coupon time as the only coupon attribute for further analysis.
 ### 3.6 Summarized Coupon Attributes and Temperature related variables Analysis
 
 Insights:
-1)	Coupon Offer Distribution: Coffee House coupons were the most frequently offered, followed by budget restaurants, carryout options, bars, and upscale restaurants.   
-2)	Coupon Acceptance Rates: Carryout coupons emerged as the most accepted coupon type, with budget restaurants also showing high acceptance. In contrast, coffee houses (the most frequently offered), upscale restaurants, and bars had notably lower acceptance rates, averaging in the 0.4 range. This indicates a clear preference among drivers for conducting coupons over others.  
-3)	Expiration and Timing Preferences: Drivers prefer coupons with a one-day expiration, valuing the flexibility to plan over the immediacy of two-hour offers. Additionally, it suggests a need to align coupon offers with drivers' lifestyles and schedules for more effective promotion strategies for all coupon types.  
+1)	Coupon Offer Distribution: Coffee House coupons were the most frequently offered, followed by budget restaurants, carryout options, bars, and upscale restaurants.
+   
+2)	Coupon Acceptance Rates: Carryout coupons emerged as the most accepted coupon type, with budget restaurants also showing high acceptance. In contrast, coffee houses (the most frequently offered), upscale restaurants, and bars had notably lower acceptance rates, averaging in the 0.4 range. This indicates a clear preference among drivers for conducting coupons over others.
+     
+3)	Expiration and Timing Preferences: Drivers prefer coupons with a one-day expiration, valuing the flexibility to plan over the immediacy of two-hour offers. Additionally, it suggests a need to align coupon offers with drivers' lifestyles and schedules for more effective promotion strategies for all coupon types.
+   
 4)	Environmental Influences: The analysis, primarily conducted on sunny days across three temperature ranges, reveals a positive correlation between coupon acceptance and comfortable, sunny weather conditions. This finding suggests that favorable environmental conditions play a role in increasing coupon engagement, pointing towards the importance of considering weather factors in coupon distribution plans.
 
 Analytics Actions:
 
-1)	Focused on 'Bar' and 'Carryout' coupons, identifying them respectively as the least and most popular among drivers for in-depth analysis.  
-2)	Expiration Attribute/Temperature Exclusion: Opted to remove expiration time from in-depth analysis due to its uniform application across coupon types across coupon types.  
-3)	Coupon Timing: Identified coupon timing as a critical variable for further analysis, especially for 'CarryOut' coupons, to align promotional efforts with drivers' preferences and routines.  
+1)	Focused on 'Bar' and 'Carryout' coupons, identifying them respectively as the least and most popular among drivers for in-depth analysis.
+  
+2)	Expiration Attribute/Temperature Exclusion: Opted to remove expiration time from in-depth analysis due to its uniform application across coupon types across coupon types.
+ 
+3)	Coupon Timing: Identified coupon timing as a critical variable for further analysis, especially for 'CarryOut' coupons, to align promotional efforts with drivers' preferences and routines.
+    
 4)	Weather Variable Exclusion: This decision acknowledges the dataset's sunny condition bias, aiming for a more representative understanding of factors driving coupon acceptance without the skewed influence of incomplete weather data.
 
 ## 4 Bar Coupon Acceptance
@@ -170,7 +180,8 @@ This analysis, delineated by factors such as bar visit frequency, age, income, o
 
 ### 4.4 Compare the Acceptance Rate between Those Who Went to a Bar Three or Fewer Times a Month to Those Who Went More.
 
-•	Rate Analysis and Visualization: Utilized grouping and mean methods to calculate acceptance rates for drivers based on their frequency of bar visits. Drivers meeting the specified criteria were labeled/flagged 'in' within the dataset.  
+•	Rate Analysis and Visualization: Utilized grouping and mean methods to calculate acceptance rates for drivers based on their frequency of bar visits. Drivers meeting the specified criteria were labeled/flagged 'in' within the dataset.
+
 •	The resulting statistics are listed below, followed by a bar chart for visual representation.  
 
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/435a82c8-a083-4ca5-a200-b7ccfc4c6b6b)
@@ -185,12 +196,20 @@ This analysis, delineated by factors such as bar visit frequency, age, income, o
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b32eebaf-a43c-4491-9f2d-e9fcfa1b385f)
 
 ### 4.7. Compare the acceptance rates between those drivers who:
+
 1)  go to bars more than once a month, had passengers that were not a kid, and were not   widowed OR
+   
    ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/88bdfe7a-4719-40b4-a49d-70b24f9734ce)
+   
 2)	go to bars more than once a month and are under the age of 30 OR
+   
    ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/ba3b1c19-c510-4067-bb14-bca6e70108b8)
+
+   
 3)	go to cheap restaurants more than four times a month and income is less than 50K.
+   
    ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b11e05a4-0f3f-46cf-b64a-5ef87e4f07ad)
+
 
 ### 4.8. Group the three clauses above using OR as one super group due to the OR operator in question 4.7.
 ![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/b8f04682-9f3f-4fcd-9aa2-6eb486203593)
@@ -290,7 +309,7 @@ Based on the visualization analysis above and bar coupon example, the following 
 •	Destination: Reflects the impact of the driver's intended destination.  
 •	Passenger Composition and Marital Status: Considers the presence of children as passengers and the marital status of the driver.
   
-4)Behavior Factors:
+4) Behavior Factors:
 
 •	Frequency of Carryout Orders: Emphasizes drivers who order carryout more than once.    
 •	Bar Visit Frequency: Check the number of visits to bars as a potential factor.    
@@ -332,8 +351,8 @@ The preference for carryout among these groups may reflect a strategic choice fo
 The decision to accept carryout coupons is notably affected by the presence of passengers and the individual's marital status. Specifically, those identified as 'Divorced' or 'Widowed' show a higher preference for carryout options. Conversely, drivers accompanied by child passengers tend to decline carryout coupon offers.
 
 This behavior pattern might come from psychological factors where:
-1) Individuals may prefer solitude or avoid social interactions during certain life stages.
-2) Dining out with children is often viewed as a valuable social activity, offering quality time outside the home rather than opting for carryout.
+  1) Individuals may prefer solitude or avoid social interactions during certain life stages.
+  2) Dining out with children is often viewed as a valuable social activity, offering quality time outside the home rather than opting for carryout.
      
 These insights highlight the complex interplay between social circumstances and dining preferences, influencing coupon acceptance behavior.  
 
@@ -363,13 +382,13 @@ The frequency of restaurant visits, whether to upscale or budget establishments,
 
 Significant Factors:
 
-•	Occupation: Demanding jobs increase, while flexible schedules (students, tech, sales) decrease carryout coupon use.  
-•	Income Level: Lower-income individuals are more inclined towards carryout coupons for economic reasons.  
-•	Income & Occupation: A crucial combination affecting non-students and those outside tech, emphasizing savings and convenience.  
-•	Destination & Income: No urgent destination plus lower income and specific jobs suggest a cost-saving, convenient preference.  
-•	Marital Status & Passenger: Divorced/widowed and those without child passengers tend to use more carryout coupons, reflecting lifestyle impacts.  
-•	Coupon Timing: Preferences for carryout outside work hours highlight convenience and scheduling importance.  
-•	Regular vs. Infrequent Coffee House Visitors: Regular carryout drivers and infrequent coffee house visitors show varied coupon acceptance, hinting at habit and perceived value.
+ •	Occupation: Demanding jobs increase, while flexible schedules (students, tech, sales) decrease carryout coupon use.  
+ •	Income Level: Lower-income individuals are more inclined towards carryout coupons for economic reasons.  
+ •	Income & Occupation: A crucial combination affecting non-students and those outside tech, emphasizing savings and convenience.  
+ •	Destination & Income: No urgent destination plus lower income and specific jobs suggest a cost-saving, convenient preference.  
+ •	Marital Status & Passenger: Divorced/widowed and those without child passengers tend to use more carryout coupons, reflecting lifestyle impacts.  
+ •	Coupon Timing: Preferences for carryout outside work hours highlight convenience and scheduling importance.  
+ •	Regular vs. Infrequent Coffee House Visitors: Regular carryout drivers and infrequent coffee house visitors show varied coupon acceptance, hinting at habit and perceived value.
 
 Minimal Impact Factors: Age, Bar and Restaurant Visits
 
@@ -382,21 +401,24 @@ Minimal Impact Factors: Age, Bar and Restaurant Visits
 
 ## 6. Next Steps
 1) Data Enrichment for Comprehensive Analysis:
-•	Expand Data Collection: Integrate additional variables such as lifestyle, diet habits, ethnicity, and spoken language to create a more nuanced understanding of customer profiles.  
-•	Utilize Surveys and Partnerships: Consider deploying surveys or collaborating with lifestyle apps to gather detailed insights on customers' daily habits, preferences, and cultural backgrounds.
+ •	Expand Data Collection: Integrate additional variables such as lifestyle, diet habits, ethnicity, and spoken language to create a more nuanced understanding of customer profiles.  
+ •	Utilize Surveys and Partnerships: Consider deploying surveys or collaborating with lifestyle apps to gather detailed insights on customers' daily habits, preferences, and cultural backgrounds.
 
 2) Understanding Emotional and Psychological Factors:
 Deep Dive into Coupon Rejection Reasons: Conduct qualitative research or focus groups to explore the underlying reasons why drivers might reject coupons, moving beyond economic factors to emotional and psychological needs.
+
 3)Model Development and Hypothesis Refinement:
-•	Refine Research Hypotheses: Based on expanded data and insights, revisit and refine research hypotheses to better capture the complexities of coupon acceptance behaviors.  
-•	Advance Data Preparation: Enhance data cleaning, transformation, and feature engineering processes to prepare for model development, incorporating new variables and insights.  
-•	Develop Predictive Classification Model: Utilize enriched datasets and refined hypotheses to build a predictive model focused on forecasting coupon acceptance. This model should account for both tangible and intangible factors influencing decision-making.  
-•	Iterative Testing and Validation: Employ a rigorous testing and validation process to ensure the model's accuracy and reliability, adjusting strategies based on model feedback and stakeholder input.
+
+ •	Refine Research Hypotheses: Based on expanded data and insights, revisit and refine research hypotheses to better capture the complexities of coupon acceptance behaviors.  
+ •	Advance Data Preparation: Enhance data cleaning, transformation, and feature engineering processes to prepare for model development, incorporating new variables and insights.  
+ •	Develop Predictive Classification Model: Utilize enriched datasets and refined hypotheses to build a predictive model focused on forecasting coupon acceptance. This model should account for both tangible and 
+   intangible factors influencing decision-making.  
+ •	Iterative Testing and Validation: Employ a rigorous testing and validation process to ensure the model's accuracy and reliability, adjusting strategies based on model feedback and stakeholder input.
  
 4)Stakeholder Engagement and Strategy Implementation:
-•	Collaborative Review Sessions: Regularly engage with stakeholders to review model predictions, insights, and implications for marketing strategies.  
-•	Actionable Insight Dissemination: Share model findings in an accessible format, providing clear, actionable recommendations for targeted marketing initiatives.  
-•	Implement Data-Driven Campaigns: Apply model insights to launch refined, personalized coupon campaigns aimed at enhancing customer engagement and acceptance rates.
+ •	Collaborative Review Sessions: Regularly engage with stakeholders to review model predictions, insights, and implications for marketing strategies.  
+ •	Actionable Insight Dissemination: Share model findings in an accessible format, providing clear, actionable recommendations for targeted marketing initiatives.  
+ •	Implement Data-Driven Campaigns: Apply model insights to launch refined, personalized coupon campaigns aimed at enhancing customer engagement and acceptance rates.
 
 5)Continuous Learning and Adaptation:
 
