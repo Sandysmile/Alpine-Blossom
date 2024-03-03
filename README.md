@@ -420,21 +420,20 @@ Minimal Impact Factors: Age, Bar and Restaurant Visits
 
 ## 6. Next Steps
 
-1) Data Enrichment for Comprehensive Analysis:
-   
-  • Expand Data Collection: Integrate additional variables such as lifestyle, diet habits, ethnicity, and spoken language to create a more nuanced understanding of customer profiles.  
-  • Utilize Surveys and Partnerships: Consider deploying surveys or collaborating with lifestyle apps to gather detailed insights on customers' daily habits, preferences, and cultural backgrounds.
+ 1) Data Enrichment for Comprehensive Analysis:  
+   • Expand Data Collection: Integrate additional variables such as lifestyle, diet habits, ethnicity, and spoken language to create a more nuanced understanding of customer profiles.  
+   • Utilize Surveys and Partnerships: Consider deploying surveys or collaborating with lifestyle apps to gather detailed insights on customers' daily habits, preferences, and cultural backgrounds.
 
 2) Understanding Emotional and Psychological Factors:
    Deep Dive into Coupon Rejection Reasons: Conduct qualitative research or focus groups to explore the underlying reasons why drivers might reject coupons, moving beyond economic factors to emotional and psychological 
    needs.
 
-3) Model Development and Hypothesis Refinement:
- •	Refine Research Hypotheses: Based on expanded data and insights, revisit and refine research hypotheses to better capture the complexities of coupon acceptance behaviors.  
- •	Advance Data Preparation: Enhance data cleaning, transformation, and feature engineering processes to prepare for model development, incorporating new variables and insights.  
- •	Develop Predictive Classification Model: Utilize enriched datasets and refined hypotheses to build a predictive model focused on forecasting coupon acceptance. This model should account for both tangible and 
-   intangible factors influencing decision-making.  
- •	Iterative Testing and Validation: Employ a rigorous testing and validation process to ensure the model's accuracy and reliability, adjusting strategies based on model feedback and stakeholder input.
+3) Model Development and Hypothesis Refinement:  
+  •	Refine Research Hypotheses: Based on expanded data and insights, revisit and refine research hypotheses to better capture the complexities of coupon acceptance behaviors.     
+  •	Advance Data Preparation: Enhance data cleaning, transformation, and feature engineering processes to prepare for model development, incorporating new variables and insights.  
+  • Develop Predictive Classification Model: Utilize enriched datasets and refined hypotheses to build a predictive model focused on forecasting coupon acceptance. This model should account for both tangible and 
+    intangible factors influencing decision-making.  
+  •	Iterative Testing and Validation: Employ a rigorous testing and validation process to ensure the model's accuracy and reliability, adjusting strategies based on model feedback and stakeholder input.
  
 5) Stakeholder Engagement and Strategy Implementation:
  •	Collaborative Review Sessions: Regularly engage with stakeholders to review model predictions, insights, and implications for marketing strategies.
