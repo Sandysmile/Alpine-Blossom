@@ -1,5 +1,5 @@
 # Alpine-Blossom
-M ML/AI projects bloom from curiosity, aiming to merge tech with humanity. Inspired by alpine resilience, each project includes thoughtful analyses of their implications for business and society.
+My ML/AI projects bloom from curiosity, aiming to merge tech with humanity. Inspired by alpine resilience, each project includes thoughtful analyses of their implications for business and society.
 
 # Case Study: Will a Driver Accept a Coupon?
 
